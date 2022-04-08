@@ -1,0 +1,180 @@
+body {
+    margin:0;
+    padding: 0;
+
+}
+
+header{
+    background-color: aqua;
+
+}
+
+header > form{
+    background-color: blue;
+    display: flex;
+}
+
+.container > img{
+    width: 400px;   
+}
+
+
+.container > form > button{
+    padding:10px;
+    font-size: 16px;
+}
+
+.container > form > input{
+    padding: 10px;
+    font-size: 15px;
+}
+
+header >div{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+}
+
+nav {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    background-color: #F0F0F0;
+}
+
+nav > ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    color: #333;
+}
+
+nav > ul > li > a > hover {
+	background-color :  rgba ( 255 , 255 , 255 , 0,5 );
+}
+
+main{
+	border: 1px preto sólido;
+}
+
+lado-lado {
+	display : flexível;
+	margin-top :  20 px ;
+	margin-bottom :  20 px ;
+}
+
+de lado {
+
+
+	flex :  0  0  300 px ;
+	fill :  20px ; 
+	border-right : 1 px sólido;
+    color: #F0F0F0;
+}
+
+.lado-lado > ao lado > .item de lado {
+	margin-top :  20 px ;
+	padding-bottom :  20 px ;
+	border-bottom :  1 px sólido #CCC ;
+}
+
+.lado-lado > ao lado > .sideItem > etiqueta {
+	display : bloco;
+}
+
+.lado-lado > ao lado > .sideItem > selecione {
+	width : 100% ;
+}
+
+.lado-lado > ao lado > .sideItem > selecione > opção {
+	fill :  10px ; 
+}
+
+principal {
+	fill :  20px ; 
+}
+
+.lado-lado > main {
+	display : grade;
+	grid-template-columns :  1 fr  1 fr  1 fr ;
+	column-width :  30px ;
+	align-items : linha de base;
+	line-height :  50 px ;
+}
+
+.lado-lado > principal > .produto {
+	fill :  10px ; 
+}
+
+.lado-lado > principal > .produto :pairar {
+	border :  1 px sólido #F0F0F0 ;
+	cursor : ponteiro;
+}
+
+.lado-lado > principal > .produto :pairar .controla  um {
+	color :  #000 ;
+}
+
+.lado-lado > principal > .produto  h3 {
+	margin : 0 ;
+	font-size :  16 px ;
+}
+
+.lado-lado > principal > .produto  p {
+	font-size :  14 px ;
+	margin : 10 px  0 ;
+	color : #666 ;
+}
+
+
+.lado-lado > principal > .imagem do produto  {
+	width :  100% ;
+	display : bloco;
+	margin-bottom : 20 px ;
+}
+
+.lado-lado > principal > .produto .info-preco {
+	margin-bottom :  20 px ;
+	text-align : centro;
+}
+
+.lado-lado > principal > .produto .info-preco .preco {
+	display : bloco;
+}
+
+.lado-lado > principal > .produto .info-preco .parcelamento {
+	display : bloco;
+	font-size:  12 px ;
+}
+
+.lado-lado > principal > .produto .controles {
+	display : flexível;
+	justify-content : espaço entre;
+}
+
+.lado-lado > principal > .produto .controla  um {
+	display : bloco em linha;
+	text-align : centro;
+	display : flexível;
+	flex-direction : coluna;
+	font-size :  12 px ;
+	cursor : ponteiro;
+	color :  #666 ;
+}
+
+
+rodapé {
+	fill :  20px ; 
+	background-color :  #333 ;
+	color : #FFF ; 
+	margin-top : auto;
+}
+
